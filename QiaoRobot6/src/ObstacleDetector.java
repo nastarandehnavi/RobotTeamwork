@@ -65,7 +65,7 @@ public class ObstacleDetector implements Runnable{
                 Thread.sleep(500); // Control the frequency of checks
             } catch (InterruptedException e) {
                 e.printStackTrace(); // Print error trace and exit the loop
- //               break; 	
+ //               break;	
           
             }
             Delay.msDelay(100);

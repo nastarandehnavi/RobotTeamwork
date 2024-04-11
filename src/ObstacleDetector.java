@@ -53,7 +53,7 @@ public class ObstacleDetector implements Runnable {
             }
 
             try {
-                Thread.sleep(500); // Delay for stability
+                Thread.sleep(500); // Delay
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

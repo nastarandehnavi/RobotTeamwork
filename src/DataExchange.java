@@ -1,7 +1,10 @@
 /**
  * The DataExchange class manages shared data and synchronization between different parts of the program.
  * It provides methods to access and update various parameters used for communication and control.
+<<<<<<< HEAD
  * author: Qiaoqiao
+=======
+>>>>>>> main
  */
 public class DataExchange {
 

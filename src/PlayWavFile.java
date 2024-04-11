@@ -27,3 +27,19 @@ public class PlayWavFile implements Runnable {
         }
     }
 }
+//music
+/*
+from ev3dev2.sound import Sound
+
+# 创建音频对象
+sound = Sound()
+
+# 定义音符和持续时间
+notes = ['C4', 'D4', 'E4', 'C4', 'C4', 'D4', 'E4', 'C4', 'E4', 'F4', 'G4', 'E4', 'F4', 'G4', 'G4', 'A4', 'G4', 'F4', 'E4', 'D4', 'C4']
+durations = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# 播放音乐
+for note, duration in zip(notes, durations):
+    sound.tone(note, duration * 0.5)  # 每个音符的播放时间为0.5秒
+
+*/

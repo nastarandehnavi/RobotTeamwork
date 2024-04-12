@@ -12,7 +12,7 @@ public class DataExchange {
     private float currentDistance = 0; // Current distance measured by sensors
     private int current_CMD = 0; // Current command for robot behavior
 
-    private long firstTime = 0; // Timestamp for the start time of the program
+    private long firstTime = 0; // Timestamp for the start time of the program.some changes in comment as a Task.
     private long secondTime = 0; // Timestamp for the end time of the program
     private int obstacleCount = 0; // Count of detected obstacles
 

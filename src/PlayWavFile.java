@@ -23,7 +23,7 @@ public class PlayWavFile implements Runnable {
             Sound.setVolume(100); // Set the volume level to maximum
             Sound.playSample(musicFile); // Play the WAV file
         } else {
-            System.out.println("Music file not found!"); // Print a message if the file is not found
+            System.out.println("Music file not exist,please check again!"); // Print a message if the file is not found
         }
     }
 }

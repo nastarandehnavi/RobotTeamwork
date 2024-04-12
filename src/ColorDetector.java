@@ -58,4 +58,5 @@ public class ColorDetector implements Runnable {
     }
 }
 
-// getRedMode() == getMode(Red)
+// explanation
+//getRedMode() == getMode(Red)

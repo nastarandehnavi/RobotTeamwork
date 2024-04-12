@@ -57,3 +57,6 @@ public class ColorDetector implements Runnable {
         colorSensor.close(); // Close the color sensor after thread execution
     }
 }
+
+// explanation
+//getRedMode() == getMode(Red)

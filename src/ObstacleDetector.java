@@ -9,7 +9,6 @@ import lejos.utility.Delay;
  * The ObstacleDetector class implements a thread for detecting obstacles using an ultrasonic sensor.
  * It continuously measures the distance to objects and updates a DataExchange object based on the distance measurements.
  * Author:Team2
- * change
  */
 public class ObstacleDetector implements Runnable {
 

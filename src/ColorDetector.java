@@ -11,7 +11,7 @@ import lejos.robotics.SampleProvider;
  */
 public class ColorDetector implements Runnable {
 
-    private DataExchange DE; // DataExchange object 
+    private DataExchange DE; // DataExchange object for communication
     private EV3ColorSensor colorSensor; // EV3 color sensor
     private SampleProvider colorProvider; // Sample provider for color sensor
     private float[] colorProviderSample; // Array to store color sample data
